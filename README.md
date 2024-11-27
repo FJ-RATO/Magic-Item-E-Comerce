@@ -19,7 +19,6 @@ Here are the core microservices implemented for the platform:
 
 5. **Notification Service**  
    Sends email notifications for various events (e.g., order confirmation, shipping updates).  
-   *Tools*: Gmail limited to 100 emails a day.
 
 ---
 
@@ -27,21 +26,34 @@ Here are the core microservices implemented for the platform:
 
 1. **API Gateway**  
    Acts as the entry point for all client requests, routing them to the appropriate microservice.  
-   *Examples*: Kong, Traefik, or NGINX.
 
 2. **Service Discovery**  
    Automatically detects and manages service instances.  
-   *Examples*: Consul or Eureka.
 
 3. **Centralized Logging**  
    Aggregates logs from all microservices for easy monitoring and debugging.  
-   *Tools*: ELK stack (Elasticsearch, Logstash, Kibana).
 
 4. **Docker & Docker Compose**  
    Each microservice is containerized for better orchestration, networking, and scaling.  
-   *Tools*: Docker Compose can define and manage multi-container applications.
 
 5. **CI/CD Pipeline**  
    Automates the build, test, and deployment process for each microservice.  
-   *Examples*: GitHub Actions.
+
+---
+
+## Tech Stack
+
+| Component               | Tool/Framework           |
+|-------------------------|--------------------------|
+| Language                | Java                    |
+| Microservice Framework  | Spring Boot             |
+| API Gateway             | Spring Cloud Gateway |
+| Service Discovery       | Eureka          |
+| Databases               | PostgreSQL, Redis |
+| Containerization        | Docker, Docker Compose  |
+| CI/CD                   | GitHub Actions  |
+| Monitoring              | Prometheus, Grafana     |
+| Logging                 | ELK Stack              |
+| Notification Service    | Gmail       |
+
 
