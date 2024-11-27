@@ -1,4 +1,5 @@
 # Magic Item E-Comerce
+[RoadMap.sh](https://roadmap.sh/projects/scalable-ecommerce-platform)
 
 ## Core Microservices
 
@@ -42,5 +43,5 @@ Here are the core microservices implemented for the platform:
 
 5. **CI/CD Pipeline**  
    Automates the build, test, and deployment process for each microservice.  
-   *Examples*: Jenkins, GitLab CI, or GitHub Actions.
+   *Examples*: GitHub Actions.
 
