@@ -45,15 +45,15 @@ Here are the core microservices implemented for the platform:
 
 | Component               | Tool/Framework           |
 |-------------------------|--------------------------|
-| Language                | Java                    |
-| Microservice Framework  | Spring Boot             |
-| API Gateway             | Spring Cloud Gateway |
-| Service Discovery       | Eureka          |
-| Databases               | PostgreSQL, Redis |
-| Containerization        | Docker, Docker Compose  |
-| CI/CD                   | GitHub Actions  |
-| Monitoring              | Prometheus, Grafana     |
-| Logging                 | ELK Stack              |
-| Notification Service    | Gmail       |
+| **Language**            | Scala                   |
+| **Microservice Framework** | ZIO                     |
+| **API Gateway**         | ZIO-HTTP                |
+| **Service Discovery**   | Consul or Zookeeper      |
+| **Databases**           | PostgreSQL, Redis       |
+| **Containerization**    | Docker, Docker Compose  |
+| **CI/CD**               | GitHub Actions          |
+| **Monitoring**          | Prometheus, Grafana     |
+| **Logging**             | ZIO Logging             |
+| **Notification Service**| Gmail                   |
 
 
